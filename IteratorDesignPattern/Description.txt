@@ -1,0 +1,13 @@
+Create an interface called iIterator. It has 4 methods:
+
+  	First(), Next(), IsDone(), CurrentItem().
+
+An Iterator is an interface that defines methods for accessing the elements of a collection (array, linked-list) in a uniform manner. The interface is implemented in a class defined for a specific data type. For example, create an IntegerIterator for the Integer type. The implementing class gets a reference to the collection. The client class (the one using the collection) then accesses the collection through the methods implemented.
+
+In this assignment, create an iterator for String, Double, and Integer types. The clients (main and its sibling)  contain arrays of String, Double and Integer. After opening the data file and reading the contents into the arrays in main, create the iterators in main. Create a method called PrintAll that accepts a parameter of iIterator and prints the contents of each iterator in turn. You will create three different iterators – String, Double, Integer.
+
+The first line of the input contains three ints. They are the number of integers, doubles and strings, respectively, that follow in the file. So
+5 12 9
+means the next 5 values are integer, the next 12 after that are double and the last 9 are string.
+
+Output is simply to print the contents of each iterator: double, then integer, then string. 

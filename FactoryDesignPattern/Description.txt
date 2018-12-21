@@ -1,0 +1,9 @@
+Objectives: the assignment uses
+•	inheritance, 
+•	polymorphism, 
+•	virtual functions,
+•	protected data members,
+•	files streams, 
+•	operator overloading,
+•	the “Factory Method” design pattern
+
